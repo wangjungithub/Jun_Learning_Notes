@@ -1,0 +1,6 @@
+
+01. Job workspace and runtime environment isolation
+02. Permission control
+03. Job name convention
+04. Fast build
+05. Setup a job status dashboard

@@ -1,0 +1,2 @@
+
+This is to check each critical item to see if meet release criteria
