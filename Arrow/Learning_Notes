@@ -1,12 +1,19 @@
-
+Target: Variable sharing between controllers and tests
+  . There should be a global testParams for each test
+  . global testParams should be shared between controller(s) and test(s)
 
 About testParams
 
 . Where is testParams from (where it is constructed)?
 
 
-. How controller get testParams?
+. How controller and TestSession get testParams?
 
-. How TestSession get testParams?
+   . Arrow Controller gets testConfig and testParams from its constructor
+   . Controller is created in Arrow:runController, testConfig/testParams are from runController parameters
+   . Arrow.runController is called by TestSession:runTest, parameters are from TestSession constructor, args.config/args.params;
+   . TestSession is created in SessionFactory:runTest, test object, test.config is usually empty, test.parms is from args, which is from SessionFactory constructor;
+   . SessionFactory constructor args is from Arrow construcotr, which is from index.js command line options (argv);
+
 
 
