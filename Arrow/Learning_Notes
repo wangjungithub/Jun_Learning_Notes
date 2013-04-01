@@ -18,3 +18,43 @@ About testParams
 
 
 
+dataproviders make test sessions;
+scenario is a sequence of atoms
+
+
+. Where are the testParams being used?
+
+
+   . For server side testing
+      . nodejs/node.js
+         . It is passed from lib/driver/node.js, using in forked process, so it cannot be shared with others.
+
+      . lib/driver/node.js ( NodeDriver:executeTest() )
+         . It is function parameter, the function is called by DefaultController:execute()
+
+   . For client side testing
+      . lib/driver/selenium.js
+         . testParams are passed to SeleniumDriver:executeTest(), and used in other internal functions.
+         . executeTest() is called by Controller:execute()
+
+   . lib/controller/default.js ( DefaultController:execute() )
+     . The testParams is got from constructor, saved to this.testPrarms, and used by executeScenario() and execute()
+     . The DefaultController is newed in Arrow:runController()
+
+   . lib/interface/arrow.js ( Arrow:runController() )
+      . It is a function parameter, the function is called by TestSession:runTest()
+
+   . lib/session/testsession.js ( TestSession:runTest() )
+      . The testParams are from TestSession constructor, it is newed in SessionFactory:runAllTestSessions()
+
+   . lib/session/sessionfactory.js ( SessionFactory:runAllTestSessions() )
+      . If arrow is ran with a test descriptor, testParams are parsed from descriptor file;
+      . Otherwise, testParams is initialized in SessionFactory:startTest()
+
+
+
+. What are in the testParams?
+
+
+
+. 
