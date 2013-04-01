@@ -54,6 +54,17 @@ scenario is a sequence of atoms
 
 
 . What are in the testParams?
+   . testParams.test      ( The test JS script )
+   . testParams.page      ( path to the mock or production html page )
+   . testParams.lib       ( test libraries )
+   . testParams.driver    ( node/selenium )
+   . testParams.scenario  ( a sequence of atoms )
+   . testPrarms.testName  ( name of test )
+   . testParams.action    ( The action JS script )
+   . testParams.customController ( true/false )
+
+
+
 
 
 
