@@ -1,0 +1,13 @@
+
+01. nopt (https://github.com/isaacs/nopt)
+    Sample project: yahoo-arrow
+    Issue: Seems that it cannot error out for unknown option
+
+02. node-optimist (http://github.com/substack/node-optimist.git)
+    Sample project: 
+    Issue: "demand" can make sure the program can get required arguments, but I still cannot figure out how to catch the unknown/unexpected arguments.
+
+03. commander (https://github.com/visionmedia/commander.js)
+    Sample project:
+    Issue: when argv.args > 0, it won't error out for unknown option again
+        It is fixed in a PR (https://github.com/visionmedia/commander.js/pull/121), not sure when it can be merged

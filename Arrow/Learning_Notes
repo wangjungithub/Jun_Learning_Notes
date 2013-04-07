@@ -66,6 +66,14 @@ scenario is a sequence of atoms
 
 
 
+. What is arrowcursive and arrowChildProcess
+   When run arrow with multiple descriptor (maybe by glob), arrow will fork child process for each descriptor, using arrowChildProcess to mark that.
 
+
+. What is capabilities
+   Check the sample: tests/functional/data/arrow_test/cap.json, it is to define webdriver capabilities like browser name/version  and platform
+
+. What is dimensions and context
+   Dimensions is a json file, to define different kinds of context, context is to pick the one we like
 
 . 
