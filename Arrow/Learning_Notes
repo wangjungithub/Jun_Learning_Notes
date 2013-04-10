@@ -76,4 +76,11 @@ scenario is a sequence of atoms
 . What is dimensions and context
    Dimensions is a json file, to define different kinds of context, context is to pick the one we like
 
+. How is testParams.scenario handled
+   From the cases I saw, scenario is working with default controller, in DefaultController::execute, if testParams.scenario exists, 
+   DefaultController::executeScenario gets called, which will call Arrow::runController for each atoms.
+   Each atom can define its own (custom) controller, if not, will use the default controller.
+   Multiple scenario atoms are still count as one test session.
+   Sample: arrow_root/tests/functional/data/arrow_test/controller_descriptor_fix.json
+
 . 
