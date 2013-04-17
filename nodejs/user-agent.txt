@@ -4,4 +4,5 @@ We can get a user agent from: http://www.whatsmyuseragent.com/
 
 Got this string for my chrome on Mac: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31
 
+One of the reason why a web server check user agent is to make sure the request is from qualified browser, it can low down the load on the server, to block some attacks.
 

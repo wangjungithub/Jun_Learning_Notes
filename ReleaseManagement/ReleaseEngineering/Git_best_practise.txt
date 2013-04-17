@@ -1,1 +1,6 @@
-Book: pro-git (http://git-scm.com/book)
+. Book: pro-git (http://git-scm.com/book)
+
+. Show verison tree in command line:
+  $ git log --oneline --graph --decorate --all
+  $ git log --pretty=oneline --graph --decorate --all
+
