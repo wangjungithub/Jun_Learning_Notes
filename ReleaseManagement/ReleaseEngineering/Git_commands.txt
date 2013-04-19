@@ -1,0 +1,21 @@
+Differences between different git pull commands
+
+(1) `git pull origin master`
+	will pull changes from the origin remote, master branch and merge them to the local checked-out branch. In which case the "remote cached copy" (see below) is not updated - you reach out directly and don't touch the reference
+
+(2) `git pull origin/master`
+	will pull changes from the locally stored branch origin/master and merge that to the local checked-out branch. The origin/master branch is essentially a "cached copy" of what was last pulled from origin, which is why it's called a remote branch in git parlance. This might be somewhat confusing.
+
+(3) `git pull`
+	means `git fetch` followed by `git merge`. It fetches the content from the remote (updating the "cached copy"), then merges it into your current branch.
+
+
+So in (1) you're grabbing something directly from "far away" vs (2) grabbing stuff from your cached copy of what is "far away" vs (3) having get fetch the remote content, update the local cache and then merge from that.
+
+
+At least, I think that's it :D
+
+Sources:
+1. http://stackoverflow.com/questions/8689054/git-pull-origin-master-does-not-update-origin-master
+2. http://stackoverflow.com/questions/2883840/differences-between-git-pull-origin-master-git-pull-origin-master
+
