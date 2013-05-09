@@ -1,3 +1,4 @@
 . exports VS module.exports
      http://www.hacksparrow.com/node-js-exports-vs-module-exports.html
+     key point: module.exports is the real deal. exports is just module.exports's little helper. Your module returns module.exports to the caller ultimately, not exports.
 

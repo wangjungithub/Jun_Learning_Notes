@@ -1,3 +1,6 @@
 Mock example:
     http://blog.christoffer.me/post/2013-01-20-how-to-mock-modules-in-nodejs/#.UYsxRCtNuDo
 
+A good summary of several mock methods
+    http://mwebhack.blogspot.com/2012/04/mockery-easy-mocking-in-nodejs.html
+
