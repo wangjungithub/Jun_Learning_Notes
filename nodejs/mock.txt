@@ -1,0 +1,3 @@
+Mock example:
+    http://blog.christoffer.me/post/2013-01-20-how-to-mock-modules-in-nodejs/#.UYsxRCtNuDo
+
