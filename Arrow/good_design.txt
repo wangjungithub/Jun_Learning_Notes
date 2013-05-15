@@ -1,0 +1,12 @@
+I think Arrow has many good architect design on below perspectives:
+
+01. config/config.js, and combine with command line options
+
+02. High coverage UT, used some mock technologies like YUI Test mock and mockery
+
+03. In source documentation, with RST format (recognized by github)
+
+04. CLI and lib seperation
+
+05. Customer controller, for kind of customization
+

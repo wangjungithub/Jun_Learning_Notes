@@ -1,0 +1,7 @@
+
+Q01: why child_process.fork hangs unless process.exit() is called?
+  A: https://github.com/joyent/node/issues/2605
+     The parent and the child share a channel for sending messages. If the child quits automatically, the parent needs to anticipate write errors each time it sends a message. You therefore have to be explicit: you make the parent send a termination message to the child and have the child act on that.
+     The child process does not automatically exit once it's done, you need to call `process.exit()` explicitly. This limitation may be lifted in the future.
+
+
