@@ -1,0 +1,40 @@
+
+Some people like to force that each commit has a bug id, some others don't.
+copy some interesting opinions below. Personally I agree to not force, but provide the option to each project team, which might be easy for teams to take
+
+-----------------
+My personal opinion (I really want to stress the personal part) is that
+it's a silly restriction, but a nice feature.  If I want to link a commit
+to a bug, I want it to be easy.  If it's not necessary, I want to stop
+seeing bugs filed that are called "I opened this bug so I can commit
+something".
+
+Forcing people to file a bug for every commit either leads to silly
+placeholder bugs, or it leads to people committing less often because of
+the hassle.  Committing less often hinders continuous integration and
+leads to larger, more difficult to roll back or merge commits.
+
+
+-----------------
+I had people request "write a plugin that doesn't let people say just
+"abc" as a check-in message!" and finally got tired of it and released
+a svn plugin that let people define their own rules in the config files.
+
+
+-----------------
+I don't understand the reluctance to use a feature that cost you nothing
+and you can only benefit from.
+I don't ask to require ticket ids in commit messages but that if someone
+does refer to tickets, the change will appear in the ticket.
+
+In such a large org there's a benefit for the visibility of changes. I
+don't have time to go through the svn/git log and see what my peers
+committed. When I get emails from bugzilla I can easily see if I care
+about the change or not.
+
+There's great benefit in standardization. People know what to expect.
+
+Pushing against standards without a good reason is a bad thing imo.
+
+
+
