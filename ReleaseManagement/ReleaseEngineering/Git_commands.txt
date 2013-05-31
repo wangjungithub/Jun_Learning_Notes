@@ -77,4 +77,29 @@ git-clean instead of git clean) is obsoleted.
 See the git-clean docs for more information.
 
 ------------------------------------------------------------
+How to squash several git commits into one commit
+
+https://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit
+
+# Switch to the master branch and make sure you are up to date.
+git checkout master
+git fetch # this may be necessary (depending on your git config) to receive
+updates on origin/master
+git pull
+
+# Merge the feature branch into the master branch.
+git merge feature_branch
+
+# Reset the master branch to origin's state.
+git reset origin/master
+
+# Git now considers all changes as unstaged changes.
+# We can add these changes as one commit.
+# Adding . will also add untracked files.
+git add --all
+git commit
+
+
+------------------------------------------------------------
+
 
