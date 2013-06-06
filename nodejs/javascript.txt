@@ -1,0 +1,16 @@
+
+About javascript call and apply:
+http://dreamerslab.com/blog/tw/javascript-call-and-apply/
+
+
+About javascript this:
+http://dreamerslab.com/blog/tw/javascript-this/
+
+About javascript scope chain
+http://dmitrysoshnikov.com/ecmascript/chapter-4-scope-chain/
+http://www.cnblogs.com/TomXu/archive/2012/01/18/2312463.html
+
+About javascript closure:
+http://www.jibbering.com/faq/faq_notes/closures.html
+http://www.cn-cuckoo.com/2007/08/01/understand-javascript-closures-72.html
+http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
