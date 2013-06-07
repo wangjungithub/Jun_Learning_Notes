@@ -1,0 +1,9 @@
+WebSockets 
+websocket provides full-duplex channels. Because it lets computers talk to each other in both directions, web apps don’t have to pester the server with repeated requests, which speeds up performance. Plus, different users can share an experience from different computers at the same time—like sharing a screen or streaming audio to another computer. WebSockets is also great for chat or any real-time data you want to send back and forth.
+
+socket.io
+Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms. It's care-free realtime 100% in JavaScript.
+
+Socket.IO does more than WebSocket, even if WebSocket is selected as the transport and the user is browsing your website with an ultra modern browser. Certain features like heartbeats, timeouts and disconnection support are vital to realtime applications but are not provided by the WebSocket API out of the box.
+This is akin to jQuery's decision of creating a feature-rich and simple $.ajax API as opposed to normalizing XMLHttpRequest.
+
