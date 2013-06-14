@@ -4,3 +4,9 @@ Mock example:
 A good summary of several mock methods
     http://mwebhack.blogspot.com/2012/04/mockery-easy-mocking-in-nodejs.html
 
+A good nodejs fs mock:
+    https://npmjs.org/package/mocks
+
+A good nodejs http mock:
+    https://npmjs.org/package/nock
+

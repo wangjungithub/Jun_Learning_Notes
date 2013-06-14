@@ -1,0 +1,5 @@
+
+It is time to start using javascript strict mode:
+http://www.nczonline.net/blog/2012/03/13/its-time-to-start-using-javascript-strict-mode/
+http://www.alloyteam.com/2012/06/it-is-time-to-use-the-javascript-strict-mode-strict-mode-to-enhance-the-efficiency-of-team-development/
+
