@@ -1,0 +1,8 @@
+
+Cookie Spec:
+http://curl.haxx.se/rfc/cookie_spec.html
+
+Cross Origin Resource Sharing:
+https://developer.mozilla.org/en-US/docs/HTTP/Access_control_CORS
+
+
