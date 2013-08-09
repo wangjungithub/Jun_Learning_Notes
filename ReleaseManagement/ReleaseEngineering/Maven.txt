@@ -1,0 +1,23 @@
+
+A good start:
+  http://www.oracle.com/technetwork/cn/community/java/apache-maven-getting-started-1-406235-zhs.html
+
+Introductions:
+  http://maven.apache.org/guides/introduction/
+
+Basic concepts:
+  lifecycle
+  phase
+  scope
+  profile
+  archetype
+  plugin
+  dependency management
+
+make VS ant VS maven
+  http://grokcode.com/538/java-build-systems-a-sad-state-of-affairs/
+
+New choice:
+  Rake, Buildr, Gradle
+
+

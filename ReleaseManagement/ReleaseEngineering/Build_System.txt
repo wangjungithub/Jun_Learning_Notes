@@ -1,0 +1,20 @@
+
+
+A interested article:
+  http://www.leosimons.com/2006/a-better-make.html
+
+make VS ant VS maven
+  http://grokcode.com/538/java-build-systems-a-sad-state-of-affairs/
+
+Ant/Maven/Gradle
+  http://stackoverflow.com/questions/1163173/why-use-gradle-instead-of-ant-or-maven
+
+Ivy VS Maven
+  http://ant.apache.org/ivy/m2comparison.html
+
+Gradle
+  http://www.gradle.org/docs/current/userguide/introduction.html
+
+New choice:
+  Rake, Buildr, Gradle
+

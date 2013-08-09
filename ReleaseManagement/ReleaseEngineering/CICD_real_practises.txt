@@ -3,3 +3,10 @@ Facebook:
 
 LinkedIn:
   http://www.wired.com/business/2013/04/linkedin-software-revolution/
+
+Continuous Delivery (not Continuous Deployment)
+  http://martinfowler.com/bliki/ContinuousDelivery.html
+
+Book:
+  http://martinfowler.com/books/continuousDelivery.html
+
