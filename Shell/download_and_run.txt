@@ -1,0 +1,10 @@
+
+Here is a good example to share a script, then the use can curl and run
+  . http://get.gvmtool.net/
+
+We can create a gist on github, like this:
+  . https://gist.github.com/wangjungithub/6229608
+
+Then user can get and run it:
+  $ curl -s https://gist.github.com/wangjungithub/6229608/raw/9297df7a30283663b896b002dee72a9e1fcd07a3/logo1 | bash
+
