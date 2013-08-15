@@ -1,0 +1,8 @@
+. A byte of Python
+  . http://woodpecker.org.cn/abyteofpython_cn/chinese/
+  . http://www.ibiblio.org/g2swap/byteofpython/read/
+
+Officical document
+  . Python 2.x http://docs.python.org/2/
+  . Phthon 3.x http://docs.python.org/
+

@@ -1,0 +1,9 @@
+. Install Python
+  $ sudo apt-get install python
+
+. Install pip
+  $ sudo easy_install pip
+
+. Install module
+  $ sudo pip install <module>
+
