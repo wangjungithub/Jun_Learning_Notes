@@ -1,0 +1,11 @@
+. Talking
+  . http://stackoverflow.com/questions/356161/python-coding-standards-best-practices
+
+. PEP 8
+  . http://www.python.org/dev/peps/pep-0008/
+
+. PEP 257
+  . http://www.python.org/dev/peps/pep-0257/
+
+. Static code analysis
+  . http://www.logilab.org/project/pylint
