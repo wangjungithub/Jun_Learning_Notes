@@ -8,7 +8,10 @@ def run():
 
     for sections in config.sections():
         print (sections)
-        print (config.get(sections, "Port"))
+        print "port=%s" % config.get(sections, "Port")
+        items = config.items(sections)
+        for key, value in items:
+            print "%s: %s = %s" % (sections, key, value)
 
 if __name__ == '__main__':
     run()
